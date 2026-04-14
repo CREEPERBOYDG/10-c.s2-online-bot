@@ -1,0 +1,87 @@
+{
+  "name": "AFK Bot",
+  "bot-account": {
+    "username": "online",
+    "password": "chalol78",
+    "type": "offline"
+  },
+  "server": {
+    "ip": "10-c.play.hosting",
+    "port": 25565,
+    "version": "1.21.1",
+    "try-creative": false
+  },
+  "position": {
+    "enabled": true,
+    "x": 0,
+    "y": 317,
+    "z": 0
+  },
+  "utils": {
+    "auto-auth": {
+      "enabled": true,
+      "password": "chalol78"
+    },
+    "anti-afk": {
+      "enabled": true,
+      "sneak": true
+    },
+    "chat-messages": {
+      "enabled": false,
+      "repeat": true,
+      "repeat-delay": 120,
+      "messages": [
+        "I'm a regular player",
+        "Subscribe to Slobos!",
+        "I like to play Minecraft!"
+      ]
+    },
+    "chat-log": true,
+    "auto-reconnect": false,
+    "auto-reconnect-delay": 2000,
+    "max-reconnect-delay": 120000
+  },
+  "movement": {
+    "enabled": true,
+    "circle-walk": {
+      "enabled": true,
+      "radius": 4,
+      "speed": 3000
+    },
+    "look-around": {
+      "enabled": true,
+      "interval": 5000
+    },
+    "random-jump": {
+      "enabled": true,
+      "interval": 10000
+    }
+  },
+  "modules": {
+    "avoidMobs": false,
+    "combat": false,
+    "beds": true,
+    "chat": false,
+    "console-commands": false
+  },
+  "combat": {
+    "attack-mobs": true,
+    "auto-eat": true
+  },
+  "beds": {
+    "pick-up-day": false,
+    "place-night": true
+  },
+  "discord": {
+    "enabled": false,
+    "webhookUrl": "",
+    "events": {
+      "connect": true,
+      "disconnect": false,
+      "chat": false
+    }
+  },
+  "chat": {
+    "respond": true
+  }
+}
