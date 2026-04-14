@@ -6,7 +6,7 @@
     "type": "offline"
   },
   "server": {
-    "ip": "10-c.play.hosting",
+    "ip": "10-c.s2.play.hosting",
     "port": 25565,
     "version": "1.21.1",
     "try-creative": false
