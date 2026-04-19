@@ -1275,8 +1275,16 @@ function createBot() {
       defaultMove.canDig = false;
       defaultMove.liquidCost = 1000;
       defaultMove.fallDamageCost = 1000;
-
+      
       initializeModules(bot, mcData, defaultMove);
+      
+      setTimeout(() => {
+        if (bot && botState.connected) {
+          const password = config.utils["auto-auth"]?.password || "password";
+          bot.chat(`/register ${password} ${password}`);
+          addLog("[Auth] Sent /register command");
+        }
+      }, 3000);
 
       setTimeout(() => {
         if (bot && botState.connected && config.server["try-creative"]) {
