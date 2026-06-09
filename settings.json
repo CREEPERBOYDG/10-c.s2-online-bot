@@ -6,9 +6,9 @@
     "type": "offline"
   },
   "server": {
-    "ip": "10-c.s2.play.hosting",
+    "ip": "hagapur.play.hosting",
     "port": 25565,
-    "version": "1.21.1",
+    "version": "26.1.2",
     "try-creative": false
   },
   "position": {
